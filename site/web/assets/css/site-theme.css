@@ -1,0 +1,30 @@
+body {
+  min-height: 2000px;
+}
+
+.body-home {
+    background-image: url("../images/fundo.jpg");
+    background-repeat: no-repeat;
+}
+
+.navbar-static-top {
+  margin-bottom: 19px;
+  background-image: url("../images/topo.jpg");
+}
+
+.navbar-brand {
+  max-width: 30%;
+  margin-bottom: 30px; 
+}
+
+.navbar-default .navbar-nav > li > a{
+    color: #C12424;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+@media (max-width: 767px){
+    .navbar-brand{
+        margin-bottom: 50px;
+    }
+}
