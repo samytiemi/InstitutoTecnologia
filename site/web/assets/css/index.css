@@ -1,0 +1,126 @@
+
+
+*  {
+	margin:0;
+	padding:0;
+
+}
+
+html, body {
+  height:100%;
+
+}
+
+body {
+    background: url("../images/fundo.jpg");
+    background-attachment: fixed;
+    font-family: 'Asap', sans-serif;
+
+
+}
+
+.events-title{
+  font-weight: bold;
+  text-align: center;
+}
+
+.events{
+  background-color: #B71C1C;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 10px 14px 0 rgba(0, 0, 0, 0.2), 0 12px 26px 0 rgba(0, 0, 0, 0.19);
+}
+
+.slide{
+    box-shadow: 0 10px 14px 0 rgba(0, 0, 0, 0.2), 0 12px 26px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.news{
+  box-shadow: 0 10px 14px 0 rgba(0, 0, 0, 0.2), 0 12px 26px 0 rgba(0, 0, 0, 0.19);
+  border-color: #B71C1C;
+  border-style: solid;
+}
+
+.news-title{
+  font-style: bold;
+  font-size: 1.3em;
+  background-color: #fff;
+  color: #212121;
+  width: initial;
+  text-align: center;
+  padding: 8px 0 8px 0;
+}
+
+.menu a{
+  color: #B71C1C;
+  font-size: 1.1em;
+  font-weight: bold;
+
+}
+
+.menu a:link{
+  text-decoration: none;
+}
+
+.menu a:visited{
+  text-decoration: none;
+}
+
+.menu a:hover{
+  text-decoration: none;
+}
+
+.menu a:active{
+  text-decoration: none;
+}
+
+
+
+
+.logo{
+  margin-top: -5%;
+  margin-left: -5%;
+}
+
+.geral {
+	min-height:100%;
+	position:relative;
+	width:100%;
+}
+
+.social{
+  color: white;
+  float: left;
+  padding-top: 2%;
+}
+
+.social a{
+  text-decoration: none;
+  color:white;
+  padding-right: 20px;
+}
+
+.direitos{
+  padding-top: 10px;
+  font-size: 0.6em;
+  text-align: center;
+}
+
+.parceiros{
+  margin-top: 1%;
+  background-color: #fff;
+  float: left;
+  padding: 0.5% 0.5% 0.5% 0;
+
+}
+
+
+
+footer{
+  width: 100%;
+  height: 100px;
+  background-color: #B71C1C;
+  position: absolute;
+  bottom: 0;
+}
