@@ -13,15 +13,17 @@ and open the template in the editor.
         <script src="https://use.fontawesome.com/698d2d8dea.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 	    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="./assets/css/index.css">
+        <link rel="stylesheet" type="text/css" href="./assets/css/site-theme.css">
+        <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap-theme.css">
+        <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap-theme.min.css">
     </head>
-    <body>
-        <div class="geral">
+    <body class="body-home">
         <header>
             <div class="container-fluid">
-                <span class="col-md-3 col-md-offset-1 col-xs-1"><img src="./assets/images/logo_home.png" alt="logo do Instituto" class="logo img-responsive"></span>
-                <ul class="nav nav-pills">
+                <span class="col-md-3 col-md-offset-1 col-xs-1" id="logo"><img src="./assets/images/logo_home.png" alt="logo do Instituto" class="logo img-responsive"></span>
+                <ul class="nav nav-pills" id="p">
                   <li role="presentation" class="menu"><a href="#">HOME</a></li>
                   <li role="presentation" class="menu"><a href="#">INSTITUCIONAL</a></li>
                   <li role="presentation" class="menu"><a href="#">SERVIÇOS</a></li>
@@ -33,12 +35,12 @@ and open the template in the editor.
             </div>
         </header>
         <div class="container">
-            <div class="col-md-3 events">
-                <h4 class="events-title">EVENTOS</h4>
+            <div class="col-md-3" id="eventos">
+                <h3>EVENTOS</h3>
                 <ul style="list-style-type:none">
-                  <li>08/10 Palestras Diversas</li>
-                  <li>05/11 Preparatório para voluntários</li>
-                  <li>22/11 Tecnologias e Sociedade</li>
+                  <li><a href=#>08/10 Palestras Diversas</a></li>
+                  <li><a href=#>05/11 Preparatório para voluntários</a></li>
+                  <li><a href=#>22/11 Tecnologias e Sociedade</a></li>
                 </ul> 
             </div>
             <div class="col-md-4 col-md-offset-1 slide">
@@ -78,31 +80,30 @@ and open the template in the editor.
                   </a>
                 </div>
             </div>
-            <div class="col-md-3 col-md-offset-1 news">
+            <div class="col-md-3 col-md-offset-1" id="noticia">
                 <img src=# alt="NOTÍCIAS" class="img-responsive"></img>
-                <div class="news-title">NOTÍCIAS</div>
+                <h2>NOTÍCIAS</h2>
             </div>
         </div>
-          <footer>
-              <div class="container-fluid">
-                    <div class="social col-md-2 col-md-offset-1  col-sm-4 col-xs-6 col-xs-offset-3">
-                            <a href=#><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
-                            <span class="sr-only">Facebook</span>
-                            <a href=#><i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i></a>
-                            <span class="sr-only">YouTube</span>
-                            <a href=#><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
-                            <span class="sr-only">Google Plus</span>
-                            <br>
-                            <span class="direitos">2016 - Todos os direitos reservados</span>
-                    </div>
-                    <div class="parceiros">
-                        <div class="col-xs-6 col-md-2 col-md-offset-1 col-sm-2"><img src="./assets/images/parceiros/ufpr_barra.png" alt="UFPR" class="img-responsive"></div>
-                        <div class="col-xs-6 col-md-2 col-md-offset-1 col-sm-2"><img src="./assets/images/parceiros/unibrasil_barra.png" alt="UniBrasil" class="img-responsive"></div>
-                        <div class="col-xs-6 col-md-2 col-md-offset-1 col-sm-2"><img src="./assets/images/parceiros/utfpr_barra.png" alt="UTFPR" class="img-responsive"></div>
-                        <div class="col-xs-6 col-md-2 col-md-offset-1 col-sm-2"><img src="./assets/images/parceiros/oab_barra.png" alt="OAB" class="img-responsive"></div> 
-                    </div>
+        <footer>
+            <div class="container-fluid">
+                <div class="social">
+                    <a href=#><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+                    <span class="sr-only">Facebook</span>
+                    <a href=#><i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i></a>
+                    <span class="sr-only">YouTube</span>
+                    <a href=#><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
+                    <span class="sr-only">Google Plus</span>
+                    <br><br>
+                    <span class="direitos">2016 - Todos os direitos reservados</span>
                 </div>
-          </footer>
-        </div>
+                <ul class="parceiros">
+                    <li><img src="./assets/images/parceiros/ufpr_barra.png" alt="UFPR" class="img-responsive"></li>
+                    <li><img src="./assets/images/parceiros/unibrasil_barra.png" alt="UniBrasil" class="img-responsive"></li>
+                    <li><img src="./assets/images/parceiros/utfpr_barra.png" alt="UTFPR" class="img-responsive"></li>
+                    <li><img src="./assets/images/parceiros/oab_barra.png" alt="OAB" class="img-responsive"></li>
+                </ul>
+            </div>
+        </footer>
     </body>
 </html>
