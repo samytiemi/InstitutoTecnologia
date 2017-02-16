@@ -12,24 +12,16 @@
 
     <title>Instituto de Tecnologia e Dignidade Humana</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="assets/css/site-theme.css" rel="stylesheet">
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="assets/js/ie-emulation-modes-warning.js"></script>
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://use.fontawesome.com/698d2d8dea.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="./assets/css/site-theme.css">
+        <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap-theme.css">
+        <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap-theme.min.css">
   </head>
 
   <body class="body-home">
@@ -115,33 +107,49 @@
     
 
 
-    <div class="container">
+    
       <section id="home">
-           
-          <div class="col-sm-5" id="eventos">
-              <h2>Eventos</h2>
-              <a href="#">08/10 Palestras diversas</a>
-              <a href="#">05/11 Preparatório de voluntários</a>
-              <a href="#">21/11 Tecnologias e sociedade</a>
-          </div>
-          <div class="col-sm-5">
-              <div id="noticia">
-                  <h2>Notícia</h2>
-                  <img class="img-responsive" src="assets/images/slides/example-noticia.jpg" alt="Notícia"/>
-              </div>
-          </div>
-      </section>
-      
-    </div> <!-- /container -->
+        <div class="container">
+            <div class="col-sm-5" id="eventos">
+                <h2>Eventos</h2>
+                <a href="#">08/10 Palestras diversas</a>
+                <a href="#">05/11 Preparatório de voluntários</a>
+                <a href="#">21/11 Tecnologias e sociedade</a>
+            </div>
+            <div class="col-sm-5" id="noticia">
+                  <h2>Notícias</h2>
+                  <a href="#" title="Clique para ler a notícia">
+                      <img class="img-responsive" src="assets/images/slides/example-noticia.jpg" alt="Notícia"/>
+                  </a>
+            </div>
+        </div>
+      </section>   
+    
+    <footer>
+        <div class="container-fluid">
+            <div class="social">
+                <a href=#><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+                <span class="sr-only">Facebook</span>
+                <a href=#><i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i></a>
+                <span class="sr-only">YouTube</span>
+                <a href=#><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
+                <span class="sr-only">Google Plus</span>
+                <br><br>
+                <span class="direitos">2016 - Todos os direitos reservados</span>
+            </div>
+            <ul class="parceiros">
+                <li><img src="./assets/images/parceiros/ufpr_barra.png" alt="UFPR" class="img-responsive"></li>
+                <li><img src="./assets/images/parceiros/unibrasil_barra.png" alt="UniBrasil" class="img-responsive"></li>
+                <li><img src="./assets/images/parceiros/utfpr_barra.png" alt="UTFPR" class="img-responsive"></li>
+                <li><img src="./assets/images/parceiros/oab_barra.png" alt="OAB" class="img-responsive"></li>
+            </ul>
+        </div>
+    </footer>
 
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"><\/script>')</script>
     <script src="assets/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
