@@ -15,7 +15,7 @@ body {
 }
 
 .navbar-static-top {
-  margin-bottom: 19px;
+  margin-bottom: 0px;
   //background-image: url("../images/topo.jpg");
 
 }
@@ -32,6 +32,16 @@ body {
 }
 
 /* Home */
+#slides-home{
+    padding:0px 0px 30px;
+}
+#slides-home img{
+    max-height: 300px;
+    max-width: 100%;
+    position:relative;
+    left:30%;
+}
+
 #home {
     margin-top: 50px;
 }
