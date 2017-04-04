@@ -16,6 +16,18 @@ body {
 
 }
 
+.body-content {
+    background-color:#fff ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	overflow-y: hidden;
+	height: 100%;
+
+}
+
 .navbar-static-top {
   margin-bottom: 0px;
   //background-image: url("../images/topo.jpg");
@@ -131,6 +143,25 @@ position:relative;     left:30%; }
     text-decoration: none;
 }
 /* Home */
+
+/* Content Default */
+.breadcrumb > li{
+    color: #C12424;
+    font-size:24px;
+}
+.breadcrumb > li a{
+    color: #C12424;
+    font-size:24px;
+}
+
+.page-content{
+    background-color: #fff;
+    height: auto;
+    color: #C12424;
+    border: 1px solid #C12424;
+    margin: 0px 30px;
+}
+/* Content Default */
 
 /* Footer */
 
