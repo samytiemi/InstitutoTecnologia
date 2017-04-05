@@ -39,8 +39,8 @@
         <div id="navbar" class="navbar-collapse collapse">
             
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="seminario/index.jsp">Home</a></li>
-            <li><a href="#">O evento</a></li>
+            <li class="active"><a href="./../seminario/index.jsp">Home</a></li>
+            <li><a href="./../seminario/evento.jsp">O evento</a></li>
             <li><a href="#">Programação</a></li>
             <li><a href="#">Palestras</a></li>
             <li><a href="#">Galeria</a></li>
