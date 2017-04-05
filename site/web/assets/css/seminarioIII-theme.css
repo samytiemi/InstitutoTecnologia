@@ -44,7 +44,7 @@ body {
 }
 
 .navbar-inverse .navbar-nav > li > a{
-    background: #eee;//#eee C12424
+    background: #eee; /*#eee C12424*/
     color: #101010;
     text-transform: uppercase;
     font-weight: bold;

@@ -117,10 +117,10 @@
       <section id="home">
         <div class="container">
             <div class="col-sm-5" id="eventos">
-                <h2>Eventos</h2>
-                <a href="#">08/10 Palestras diversas</a>
-                <a href="#">05/11 Preparatório de voluntários</a>
-                <a href="#">21/11 Tecnologias e sociedade</a>
+                <h2><a href="evento/programacao.jsp">Eventos</a></h2>
+                08/10 Palestras diversas
+                05/11 Preparatório de voluntários
+                21/11 Tecnologias e sociedade
             </div>
             <div class="col-sm-5" id="noticia">
                 <h2>Notícias</h2>
