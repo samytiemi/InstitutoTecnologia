@@ -22,7 +22,7 @@
         <link rel="stylesheet" type="text/css" href="./../assets/css/bootstrap-theme.min.css">
   </head>
 
-  <body class="body-content">
+  <body>
 
     <!-- Static navbar -->
     <nav class="navbar navbar-inverse navbar-static-top">
@@ -56,7 +56,7 @@
             </ol>
         </div>
     </section>
-        
+ 
     <section id="evento">
         <div class="container">
             <div class="col-sm-12 page-content">
@@ -66,7 +66,7 @@
                 </div>
                 <div class="col-sm-4 button-acesse">
                     <a href="#" class="btn btn-danger" role="button">Acesse a programação</a> 
-                </div>
+                </div> 
                 <div class="col-sm-12">
                     <h2>Áreas de conhecimento relacionadas</h2>
                     <div class="col-sm-8">
@@ -105,8 +105,19 @@
             
         </div>
       </section> 
-    
-
+    <br> 
+    <section>
+        <div class="container">
+            <!-- ol class="breadcrumb" -->
+                <button type="button" class="btn btn-danger alinhamentoBotao" onclick="toggle('#demo');">Eventos anteriores</button>
+                <div id="demo" class="collapse col-sm-12 page-content">
+                    <h2>I Seminário Nacional de Tecnologia e Dignidade Humana – 06 a 08 de novembro de 2012</h2>Instituição promotora e local de realização: Universidade Tecnológica Federal do Paraná e parceiras: Universidade Federal do Paraná, Faculdades Integradas do Brasil, Ordem dos Advogados do Brasil – Seccional Paraná.<br>Foram mais de 300 participantes, dentre estudantes e professores de graduação e pós-graduação de IES, professores da rede de educação básica, médicos, psicólogos, delegados, entre outros. Outras Instituições Participantes: - Universidade de São Paulo - Hospital de Clínicas de São Paulo – Ambulatório Integrado dos Transtornos do Impulso/Núcleo de Dependência de Internet, - Safernet Brasil, - Ordem dos Advogados de São Paulo - Comissão de Ciência e Tecnologia, - Secretaria de Estado da Justiça, Cidadania e Direitos Humanos do Paraná, - Secretaria de Estado da Educação do Paraná. Temas abordados: Apresentar estudos científicos e os fatos atuais na área de tecnologia informática na sociedade, que privilegiem o impacto humano, no que se referem: - à saúde física, - aos processos cognitivos, - às implicações psicológicas, - às questões de segurança, - aos litígios trabalhistas e previdenciários, - à inclusão digital nas políticas públicas.
+                    <br><br>
+                    <h2>II Seminário Nacional de Tecnologia e Dignidade Humana – 15 e 16 de maio de 2015</h2>Instituição promotora Universidade Federal do Paraná, Local de realização: Ordem dos Advogados do Brasil/Seccional Paraná.<br>O II Seminário Nacional de Tecnologia e Dignidade Humana visou fomentar uma reflexão interdisciplinar acerca da “dignidade da pessoa humana” no que se refere ao uso de tecnologias de informação e comunicação por crianças, adolescentes, jovens, adultos e idosos, destacando os riscos e efeitos nocivos para a saúde mental, para o processo cognitivo, para o relacionamento familiar e para os aspectos de segurança humana e social. O evento visou, também, apresentar o eixo ‘tecnologia e dignidade humana’ do I Plano Estadual de Educação em Direitos Humanos do Paraná, como uma proposta para prevenção do uso compulsivo de tecnologias e da ocorrência dos cibercrimes. Público-Alvo (mais de 300 participantes): Alunos e professores de graduação e pós-graduação das diversas áreas do conhecimento, Representantes dos seguintes órgãos e setores: OAB/PR, Secretaria de Estado (Educação, Saúde, da Segurança Pública e Administração Penitenciária, do Trabalho e Desenvolvimento Social do Paraná, da Cultura e do Esporte).
+                </div>
+            <!-- /ol -->
+        </div>
+    </section>
     <footer>
         <div class="container-fluid">
             <div class="col-sm-5 text-footer" id="organizacao">
@@ -127,12 +138,13 @@
                     <li><img src="./../assets/images/parceiros/oab_parana_barra
                              .jpg" alt="OAB Paraná" class="img-responsive"></li>
                 </ul>
-            </div>
-            
-        </div>
     </footer>
 
-
+    <script type="text/javascript">
+        function toggle(id){
+            $(id).collapse("toggle");
+        }
+    </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"><\/script>')</script>
     <script src="./../assets/js/bootstrap.js"></script>
