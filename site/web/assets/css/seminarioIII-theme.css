@@ -230,6 +230,8 @@ table{
 .w30p100 {
     width: 30%;
 }
+
+.collapse-others{}
 /* Fim Programação */
 
 /* Footer */
@@ -290,6 +292,11 @@ footer{
     text-transform: uppercase;
     color: #fff;
     margin-top: 10px;
+}
+
+.alinhamentoBotao{
+    margin-left: 30px;
+    margin-bottom: 5px !important;
 }
 
 /* Footer */

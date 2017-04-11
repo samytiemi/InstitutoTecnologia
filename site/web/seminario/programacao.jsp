@@ -21,7 +21,7 @@ and open the template in the editor.
         <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap-theme.css">
         <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap-theme.min.css">
     </head>
-    <body class="body-home">
+    <body>
         <!-- Static navbar -->
     <nav class="navbar navbar-inverse navbar-static-top">
       <div class="container">
@@ -158,12 +158,13 @@ and open the template in the editor.
             </div>
             
         </div>
+            
     </footer>
-
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"><\/script>')</script>
-    <script src="./../../assets/js/bootstrap.js"></script>
-    <script src="./../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="./../assets/js/bootstrap.js"></script>
+    <script src="./../assets/js/ie10-viewport-bug-workaround.js"></script>
+
     </body>
 </html>
