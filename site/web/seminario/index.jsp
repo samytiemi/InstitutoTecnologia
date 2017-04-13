@@ -22,7 +22,7 @@
         <link rel="stylesheet" type="text/css" href="./../assets/css/bootstrap-theme.min.css">
   </head>
 
-  <body class="body-home">
+  <body>
 
     <!-- Static navbar -->
     <nav class="navbar navbar-inverse navbar-static-top">
@@ -36,64 +36,79 @@
           </button>
             <a class="navbar-brand" href="#"><img class="img-responsive" src="./../seminario/arquivos/logoIIISeminario.PNG"></a>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
-            
+        <div id="navbar" class="navbar-collapse collapse">  
           <ul class="nav navbar-nav navbar-right">
             <li class="active"><a href="./../seminario/index.jsp">Home</a></li>
             <li><a href="./../seminario/evento.jsp">O evento</a></li>
             <li><a href="#">Programação</a></li>
-            <li><a href="#">Palestras</a></li>
+            <li><a href="#">Palestrantes</a></li>
             <li><a href="#">Galeria</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
     
-      
-      <section id="home">
+    <section class="container">
         <div class="container">
-            <div class="col-sm-4" id="temas">
-                <h2>Temas</h2>
-                <ul>
-                    <li> Dependência tecnológica</li>
-                    <li> Educação digital </li>
-                    <li>Ciberbullying</li>
-                    <li>Aliciamento online</li>
-                    <li>Celular e trânsito</li>
-                    <li>Ergonomia física e tecnologias</li>
-                    <li>Produção, produtividade e tecnologias</li>
-                    <li>Ambiente familiar e tecnologias</li>
-                </ul>
+            <div class="col-sm-12 container data">
+                <h1 style="text-align: center;">III Seminario Nacional Tecnologia e Dignidade Humana<br>15 e 16 de maio 2017</h1>
             </div>
-            <div class="col-sm-4" id="inscricao">
-                <a href="#" class="btn btn-primary" role="button">Inscrição</a>                
-            </div>
-            <div class="col-sm-4" id="carousel-eventos">
-                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        </div>
+        <div class="col-sm-5" id="carousel-eventos">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
-                  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                  <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                  <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
                 </ol>
 
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
-                  <div class="item active">
-                    <img src="./../seminario/arquivos/ilustracao-ergonomia.jpg" alt="...">
-                    <div class="carousel-caption">
-                      Imagem 1
+                    <div class="item active">
+                        <img src="./../assets/images/slides/ISeminario_alt.jpg" alt="...">
+                        <div class="carousel-caption">
+                        ...
+                        </div>
                     </div>
-                  </div>
-                  <div class="item">
-                    <img src="./../seminario/arquivos/ilustracao-ergonomia.jpg" alt="...">
-                    <div class="carousel-caption">
-                      Imagem 2
+                    <div class="item">
+                        <img src="./../assets/images/slides/2012_alt.jpg" alt="...">
+                        <div class="carousel-caption">
+                        ...
+                        </div>
                     </div>
-                  </div>
+                    <div class="item">
+                        <img src="./../assets/images/slides/LocalI.jpg" alt="...">
+                        <div class="carousel-caption">
+                        ...
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./../assets/images/slides/IISeminario_alt.jpg" alt="...">
+                        <div class="carousel-caption">
+                        ...
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./../assets/images/slides/2015_alt.png" alt="...">
+                        <div class="carousel-caption">
+                        ...
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./../assets/images/slides/LocalII_alt.png" alt="...">
+                        <div class="carousel-caption">
+                        ...
+                        </div>
+                    </div>>
+                    <div class="item">
+                        <img src="./../assets/images/slides/IISeminario_alt.jpg" alt="...">
+                        <div class="carousel-caption">
+                        ...
+                        </div>
+                    </div>
                 </div>
-
-                <!-- Controls -->
+            <!-- Controls -->
                 <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
                   <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                   <span class="sr-only">Previous</span>
@@ -102,30 +117,44 @@
                   <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                   <span class="sr-only">Next</span>
                 </a>
-              </div>
             </div>
+        </div>        
+        <div class="col-sm-5 vermelho" id="temas">
+            <h2>Temas</h2>
+            <ul>
+                <li> Dependência tecnológica</li>
+                <li> Educação digital </li>
+                <li>Ciberbullying</li>
+                <li>Aliciamento online</li>
+                <li>Celular e trânsito</li>
+                <li>Ergonomia física e tecnologias</li>
+                <li>Produção, produtividade e tecnologias</li>
+                <li>Ambiente familiar e tecnologias</li>
+            </ul>
+        </div>  
+        <div class="col-sm-4" id="inscricao">
+                <a href="#" class="btn btn-primary" role="button">Inscrição</a>                
         </div>
-      </section>  
+    </section>  
     
     <footer>
         <div class="container-fluid">
-            <div class="col-sm-5 text-footer" id="organizacao">
+            <div class="col-sm-7 text-footer" id="organizacao">
                 <p>Organização</p>
                 <ul class="parceiros">
                     <li><img src="./../assets/images/parceiros/ufpr_barra.png" alt="UFPR" class="img-responsive"/></li>
-                    <li><img src="./../assets/images/parceiros/logo_barra.png" alt="UFPR" class="img-responsive"/></li>
+                    <li><img src="./../assets/images/parceiros/utfpr_barra.png" alt="UTFPR" class="img-responsive"/></li>
+                    <li><img src="./../assets/images/parceiros/oab_parana_barra.jpg" alt="OAB" class="img-responsive"/></li>
+                    <li><img src="./../assets/images/parceiros/logo_barra_s.png" alt="ITDH" class="img-responsive"></li>
                 </ul>
                 
             </div>
-            <div class="col-sm-7 text-footer" id="apoio">
+            <div class="col-sm-5 text-footer" id="apoio">
                 <p>Apoio</p>
                 <ul class="parceiros">
                     <li><img src="./../assets/images/parceiros/brazil_foundation_barra.png" alt="Brazil Foundation" class="img-responsive"></li>
                     <li><img src="./../assets/images/parceiros/crenvi_barra.png" alt="CRENVI" class="img-responsive"></li>
                     <li><img src="./../assets/images/parceiros/unibrasil_barra.png" alt="UniBrasil" class="img-responsive"></li>
-                    <li><img src="./../assets/images/parceiros/utfpr_barra.png" alt="UTFPR" class="img-responsive"></li>
-                    <li><img src="./../assets/images/parceiros/oab_parana_barra
-                             .jpg" alt="OAB Paraná" class="img-responsive"></li>
                 </ul>
             </div>
             
