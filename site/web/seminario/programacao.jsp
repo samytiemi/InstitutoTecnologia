@@ -40,6 +40,7 @@ and open the template in the editor.
             <li class="active"><a href="./../seminario/index.jsp">Home</a></li>
             
             <li><a href="./../seminario/evento.jsp">O evento</a></li>
+            <li><a href="localizacao.html">Localização</a></li>
             <li><a href="./../seminario/programacao.jsp">Programação</a></li>
             <li><a href="#">Palestrantes</a></li>
             <li><a href="#">Galeria</a></li>

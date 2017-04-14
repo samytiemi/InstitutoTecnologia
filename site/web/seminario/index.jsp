@@ -40,7 +40,8 @@
           <ul class="nav navbar-nav navbar-right">
             <li class="active"><a href="./../seminario/index.jsp">Home</a></li>
             <li><a href="./../seminario/evento.jsp">O evento</a></li>
-            <li><a href="#">Programação</a></li>
+            <li><a href="localizacao.html">Localização</a></li>
+            <li><a href="programacao.jsp">Programação</a></li>
             <li><a href="#">Palestrantes</a></li>
             <li><a href="#">Galeria</a></li>
           </ul>
@@ -53,7 +54,7 @@
             <div class="col-sm-12 container data">
                 <h1 style="text-align: center;">III Seminario Nacional Tecnologia e Dignidade Humana<br>15 e 16 de maio 2017</h1>
             </div>
-        </div>
+        </div> 
         <div class="col-sm-5" id="carousel-eventos">
             <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->

@@ -127,8 +127,8 @@ position:relative;     left:30%; }
     margin: 100px 0px;
     padding: 30px 0px;
     width: 100%;
+    position: right;
 }
-
 /* Home */
 
 /* Content Default */
@@ -205,6 +205,12 @@ position:relative;     left:30%; }
     margin-top: 20px;
     margin-bottom: 10px;
     color:#9d9d9d;
+}
+
+.map{
+    position: absolute;
+    left: 20%;
+    right: 20%;
 }
 table{
     font-weight: bold;

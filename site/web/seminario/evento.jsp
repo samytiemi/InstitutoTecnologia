@@ -41,6 +41,7 @@
           <ul class="nav navbar-nav navbar-right">
             <li><a href="./../seminario/index.jsp">Home</a></li>
             <li class="active"><a href="#">O evento</a></li>
+            <li><a href="localizacao.html">Localização</a></li>
             <li><a href="./../seminario/programacao.jsp">Programação</a></li>
             <li><a href="#">Palestrantes</a></li>
             <li><a href="#">Galeria</a></li>
@@ -65,7 +66,7 @@
                     <p>Disseminar os resultados de estudos e pesquisas acadêmicas e científicas sobre os impactos humanos e sociais do uso de tecnologias de informação e comunicação, com especial atenção, relacionados à proteção das crianças e dos adolescentes, bem como, aos aspectos psicológicos, à aprendizagem, à segurança, ao ambiente produtivo e ao trânsito na era digital</p>
                 </div>
                 <div class="col-sm-4 button-acesse">
-                    <a href="#" class="btn btn-danger" role="button">Acesse a programação</a> 
+                    <a href="programacao.jsp" target="_blank" class="btn btn-danger" role="button">Acesse a programação</a> 
                 </div> 
                 <div class="col-sm-12">
                     <h2 class="vermelho" >Áreas de conhecimento relacionadas</h2>
