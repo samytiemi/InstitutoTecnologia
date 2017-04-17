@@ -38,18 +38,22 @@ and open the template in the editor.
             
           <ul class="nav navbar-nav navbar-right">
             <li class="active"><a href="./../seminario/index.jsp">Home</a></li>
+            
             <li><a href="./../seminario/evento.jsp">O evento</a></li>
+            <li><a href="localizacao.html">Localização</a></li>
             <li><a href="./../seminario/programacao.jsp">Programação</a></li>
-            <li><a href="#">Palestras</a></li>
+            <li><a href="#">Palestrantes</a></li>
             <li><a href="#">Galeria</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-      
+        <div class="container">
+            <h2 class=" container vermelho"><br>III Seminário Nacional de Tecnologia e Dignidade Humana</h2>
+        </div>
         <div class="container">
             <div class="col-sm-12 data">
-                    <h3> Programação do III Seminário Nacional de Tecnologia e Dignidade Humana </h3>
+                    <h3> Programação</h3>
             </div>
         </div>
             
@@ -73,7 +77,7 @@ and open the template in the editor.
                         <tr>
                             <td><p class="texto-centralizado">9h30<br>às<br>12h00</p></td>
                             <td class="vermelho">Efeitos nocivos para o desenvolvimento da criança e do adolescente pelo uso excessivo de tecnologias</td>
-                            <td>Dra. Evelyn Eisenstein - Pediatra - <span class="texto-normal">UERJ</span>.<br> Dra. Susana Graciela Bruno Estefenon - <span class="texto-normal">UFRGS</span></td>                           
+                            <td>Dra. Evelyn Eisenstein <span class="texto-normal"> - Pediatra - UERJ</span>.<br> Dra. Susana Graciela Bruno Estefenon - <span class="texto-normal">Pediatra - UFRGS</span></td>                           
                         </tr>
                         <tr>
                             <td rowspan="4"><p class="texto-centralizado">14h00<br>às<br>18h00</p></td>
@@ -137,15 +141,17 @@ and open the template in the editor.
         
             <footer>
         <div class="container-fluid">
-            <div class="col-sm-5 text-footer" id="organizacao">
+            <div class="col-sm-7 text-footer" id="organizacao">
                 <p>Organização</p>
                 <ul class="parceiros">
                     <li><img src="./../assets/images/parceiros/ufpr_barra.png" alt="UFPR" class="img-responsive"/></li>
-                    <li><img src="./../assets/images/parceiros/logo_barra.png" alt="UFPR" class="img-responsive"/></li>
+                    <li><img src="./../assets/images/parceiros/utfpr_barra.png" alt="UTFPR" class="img-responsive"/></li>
+                    <li><img src="./../assets/images/parceiros/oab_parana_barra.jpg" alt="OAB" class="img-responsive"/></li>
+                    <li><img src="./../assets/images/parceiros/logo_barra_s.png" alt="ITDH" class="img-responsive"></li>
                 </ul>
                 
             </div>
-            <div class="col-sm-7 text-footer" id="apoio">
+            <div class="col-sm-5 text-footer" id="apoio">
                 <p>Apoio</p>
                 <ul class="parceiros">
                     <li><img src="./../assets/images/parceiros/brazil_foundation_barra.png" alt="Brazil Foundation" class="img-responsive"></li>
